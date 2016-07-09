@@ -29,9 +29,14 @@ Author:             Edward Z. Yang
 Maintainer:         ezyang@mit.edu
 Category:           Text
 Build-type:         Simple
-Cabal-version:      >=1.2
+Cabal-version:      >=1.8
 
 Library
   Exposed-modules:      Text.Groom
   Build-depends:        haskell-src-exts >= 1.0.0,
                         base >= 3 && < 5
+
+executable groom
+  main-is: Main.hs
+  hs-source-dirs: main
+  build-depends: groom, base
