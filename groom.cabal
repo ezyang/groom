@@ -1,5 +1,5 @@
 Name:               groom
-Version:            0.1.2
+Version:            0.1.2.1
 Synopsis:           Pretty printing for well-behaved Show
                     instances.
 Description:        Automatically derived Show instances are an easy way
@@ -24,7 +24,8 @@ Description:        Automatically derived Show instances are an easy way
                     Groom works only on Show instances that output valid
                     Haskell code; if Groom can't understand its input,
                     it will not make any changes.
-License:            PublicDomain
+License:            BSD3
+License-File:       LICENSE
 Author:             Edward Z. Yang
 Maintainer:         ezyang@mit.edu
 Category:           Text
